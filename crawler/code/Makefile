@@ -14,5 +14,6 @@ dropbox:
 pep8:
 	pep8 *.py
 
+# count lines of code except comments
 wc:
 	grep -v '^ *\(#.*\)\?$$' crawling.py | wc -l
